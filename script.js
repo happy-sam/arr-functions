@@ -1,7 +1,7 @@
 let arr = [1, 2, 3, 4];
 
-let arrNew = arr.map((el, i) => {
-    return () => { console.log(arr[i]) }
+let arrNew = arr.map((el) => {
+    return () => { console.log(el) }
 })
 
 arrNew.forEach((e) => {
